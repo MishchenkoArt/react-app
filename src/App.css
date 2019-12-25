@@ -1,32 +1,19 @@
+body{
+  background: rgb(66,103,178);
+background: linear-gradient(188deg, rgba(66,103,178,1) 0%, 
+rgba(81,129,184,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
 .app-wrapper{
+  
   display: grid;
   margin: 0 auto;
   width: 1200px;
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 79px 2fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
   grid-template-areas: 
   "h h"
   "n c";
 }
-
-
-.header{
-  grid-area: h;
-  background-color: green;
-  /* height: 79px; */
-  
-}
-
-.nav{
-  grid-area: n;
-  background-color: red;
-  height: 700px;
-}
-
-.content{
-  grid-area: c;
-  background-color: blue;
-  height: 700px;
-}
-
