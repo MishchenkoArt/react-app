@@ -1,13 +1,7 @@
-.item a{
-  text-decoration: none;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-}
 
 
 .nav .item{
-  grid-area: n;
+  /* grid-area: n; */
   background-color:white;
   /* height: 700px; */
   height: 43px;

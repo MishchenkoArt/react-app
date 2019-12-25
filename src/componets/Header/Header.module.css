@@ -1,14 +1,8 @@
 .header{
   grid-area: h;
-  background-color: gray;
-  /* display: inline; */
-  height: 79px;
+  background-color: #4267B2;
+  border-bottom: 1px solid #29487D;
+  position: relative;
   
 }
-header{
-  display: inline;
-}
 
-.header img{
-  padding-top: 5px;
-}

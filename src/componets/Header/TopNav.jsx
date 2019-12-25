@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './TopNav.module.css';
 const TopNav =()=>{
     return( <nav className={classes.nav}>
-    <div className = {`${classes.item} ${classes.active}`}>
+    <div className = {`${classes.item}`}>
       <a href='#'>Profile</a>
       </div>
     <div className = {classes.item}>
