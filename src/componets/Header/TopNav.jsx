@@ -1,18 +1,19 @@
 import React from 'react';
 import classes from './TopNav.module.css';
+import { NavLink } from 'react-router-dom';
 const TopNav =()=>{
     return( <nav className={classes.nav}>
     <div className = {`${classes.item}`}>
-      <a href='#'>Profile</a>
+      <NavLink to='/profile' activeClassName ={classes.active}>Profile</NavLink>
       </div>
     <div className = {classes.item}>
-      <a href='#'>Message</a>
+      <NavLink to='/dialogs' activeClassName ={classes.active}>Message</NavLink>
       </div>
     <div className = {classes.item}>
-      <a href='#'>News</a>
+      <NavLink to='#'>News</NavLink>
       </div>
     <div className = {classes.item}>
-      <a href='#'>My Friends</a>
+      <NavLink to='#'>My Friends</NavLink>
       </div>
 
   </nav>

@@ -27,10 +27,17 @@
 .nav .item a{
   color: #385898;
   margin: auto;
+  width: 108px;
+  height: 43px;
 
 }
 
 .nav .item:hover{
   cursor: pointer;
   background-color:#F5F6F7;
+}
+
+.item a.active{
+
+  color: red;
 }
